@@ -45,7 +45,6 @@ def afk(update: Update, context: CallbackContext):
         pass
 
 
-@dev_plus
 @run_async
 def no_longer_afk(update: Update, context: CallbackContext):
     user = update.effective_user
