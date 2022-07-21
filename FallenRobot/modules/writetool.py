@@ -1,7 +1,7 @@
 import requests
 from requests import get
 from pyrogram import filters
-FallenRobot.modules.helper_funcs.chat_status import dev_plus
+from FallenRobot.modules.helper_funcs.chat_status import dev_plus
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from FallenRobot import pbot as fallen, dispatcher, SUPPORT_CHAT
