@@ -19,7 +19,7 @@ async def handwrite(_, message: Message):
         m = await fallen.send_message(
             message.chat.id, "**ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...**\n\nʟᴇᴍᴍᴇ ᴡʀɪᴛᴇ ɪᴛ ᴏɴ ᴍʏ ᴄᴏᴩʏ..."
         )
-        photo = "https://apis.xditya.me/write?text=" + name
+        photo = "https://t.me/realsaberxd"
         caption = f"""
 sᴜᴄᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
 
@@ -41,7 +41,7 @@ sᴜᴄᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
         m = await fallen.send_message(
             message.chat.id, "**ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...**\n\nʟᴇᴍᴍᴇ ᴡʀɪᴛᴇ ɪᴛ ᴏɴ ᴍʏ ᴄᴏᴩʏ..."
         )
-        photo = "https://apis.xditya.me/write?text=" + name
+        photo = "https://t.me/realsaberxd"
         caption = f"""
 sᴜᴄᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
 
