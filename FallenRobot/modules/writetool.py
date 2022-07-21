@@ -31,7 +31,7 @@ sᴜᴄᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
             photo=photo,
             caption=caption,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("• ʟɪɴᴋ •", url="https://t.me/realsaberxd")]]
+                [[InlineKeyboardButton("• ʟɪɴᴋ •", url=f"https://t.me/realsaberxd")]]
             ),
         )
         await m.delete()
