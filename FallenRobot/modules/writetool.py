@@ -1,11 +1,13 @@
 import requests
 from requests import get
 from pyrogram import filters
+from FallenRobot.modules.helper_funcs.chat_status import dev_plus
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from FallenRobot import pbot as fallen, dispatcher, SUPPORT_CHAT
 
 
+@dev_plus
 @fallen.on_message(filters.command("write"))
 async def handwrite(_, message: Message):
     if not message.reply_to_message:
@@ -29,7 +31,7 @@ sᴜᴄᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
             photo=photo,
             caption=caption,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("• ʟɪɴᴋ •", url=f"{photo}")]]
+                [[InlineKeyboardButton("• ʟɪɴᴋ •", url="https://t.me/realsaberxd")]]
             ),
         )
         await m.delete()
