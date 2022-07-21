@@ -3,6 +3,8 @@ from requests import get
 from pyrogram import filters
 from FallenRobot.modules.helper_funcs.chat_status import dev_plus
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from telegram import ParseMode, Update
+from telegram.ext import CallbackContext, CommandHandler, run_async
 
 from FallenRobot import pbot as fallen, dispatcher, SUPPORT_CHAT
 
