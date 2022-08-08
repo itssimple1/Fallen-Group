@@ -3,7 +3,7 @@ from requests import get
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from FallenRobot import pbot as fallen, BOT_NAME, BOT_USERNAME, SUPPORT_CHAT
+from FallenRobot import pbot as fallen, BOT_USERNAME, SUPPORT_CHAT
 
 
 @fallen.on_message(filters.command("write"))
@@ -18,7 +18,6 @@ async def handwrite(_, message: Message):
         caption = f"""
 Successfully Written Text 💘
 
-✨ **Written By :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
 🥀 **Requested by :** {message.from_user.mention}
 ❄ **Link :** `{req}`
 """
@@ -41,7 +40,6 @@ Successfully Written Text 💘
         caption = f"""
 Successfully Written Text 💘
 
-✨ **Written By :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
 🥀 **Requested by :** {message.from_user.mention}
 ❄ **Link :** `{req}`
 """
